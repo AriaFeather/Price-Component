@@ -7,4 +7,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #494c5f;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=style.css.map */

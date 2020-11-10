@@ -67,6 +67,21 @@ input:checked + .slider:before {
   transition: 0.4s;
 }
 
+.row {
+  position: relative;
+  content: "";
+  display: block;
+  clear: both;
+}
+
+[class^=col-] {
+  float: left;
+}
+
+.col-1-of-3 {
+  width: calc(100% / 3);
+}
+
 .header__box {
   text-align: center;
   margin-bottom: 4rem;

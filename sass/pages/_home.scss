@@ -7,3 +7,35 @@
         margin-bottom: 2rem;
     }
 }
+
+.price{
+    text-align: center;
+    &__box{
+        background-color: $color-white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 0 2rem rgba(black, .2);
+        p {
+            margin-bottom: 3rem;
+        }
+        &--1{
+            padding-right: 4rem;
+        }
+        &--2{   
+            transform: scale(1.1);
+            .price__options{
+                border-top: 1px solid $color-white; 
+            }
+        }
+        &--3{
+            padding-left: 4rem;
+        }
+    }
+    &__blowup{
+        font-size: 5rem;
+    }
+    &__options{
+        border-top: 1px solid $color-neutral-3;
+        padding-top: 1rem;
+    }
+}

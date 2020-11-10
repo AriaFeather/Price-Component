@@ -1,6 +1,6 @@
 @mixin clearfix{
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 

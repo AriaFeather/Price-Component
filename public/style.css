@@ -110,9 +110,11 @@ input:checked + .slider:before {
   width: calc(100% / 3);
 }
 
+.header {
+  margin-bottom: 7rem;
+}
 .header__box {
   text-align: center;
-  margin-bottom: 4rem;
 }
 .header__heading {
   margin-bottom: 2rem;
@@ -120,6 +122,8 @@ input:checked + .slider:before {
 
 .price {
   text-align: center;
+  width: 80vw;
+  margin: 0 auto;
 }
 .price__box {
   background-color: #ffff;

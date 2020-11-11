@@ -2,10 +2,20 @@
     position: relative;
     width: 100%;
     @include clearfix;
+    @include respond(mobile){
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 [class^="col-"]{
     float: left;
+    @include respond(mobile){
+        float:none;
+    }
 }
 .col-1-of-3{
     width: calc(100% / 3);
+    @include respond(mobile){
+        width: 100%;
+    }
 }

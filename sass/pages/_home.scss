@@ -18,6 +18,7 @@
         border-radius: 1rem;
         padding: 2rem;
         box-shadow: 0 0 2rem rgba(black, .2);
+        margin-bottom: 2rem;
         p {
             margin-bottom: 3rem;
         }
@@ -26,6 +27,9 @@
         }
         &--2{   
             transform: scale(1.1);
+            @include respond(mobile){
+                transform: scale(1);
+            }
             .price__options{
                 border-top: 1px solid $color-white; 
             }
@@ -36,6 +40,9 @@
     }
     &__blowup{
         font-size: 5rem;
+        @include respond(tab-land){
+            font-size: 3rem;
+        }
     }
     &__options{
         border-top: 1px solid $color-neutral-3;

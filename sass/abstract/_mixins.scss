@@ -5,12 +5,23 @@
 }
 
 //MEDIA QUERIES
+//-->Destop First
+// Desktop 1440px, 90em
+// Tab-landscape 900px, 56.25em
+// Tab-portrait 600px, 37.5em
+// Mobile 415px, 25.93em
 
 @mixin respond($breakpoint){
     @if $breakpoint == desktop{
-        @media (max-width: 1440px){@content};
+        @media (max-width: 90em){@content};
+    }
+    @if $breakpoint == tab-land{
+        @media (max-width: 56.25em){@content};
+    }
+    @if $breakpoint == tab-port{
+        @media (max-width: 37.5em){@content};
     }
     @if $breakpoint == mobile{
-        @media (max-width: 375px){@content};
+        @media (max-width: 25.93em){@content};
     }
 }

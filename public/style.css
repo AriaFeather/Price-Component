@@ -6,6 +6,26 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 90em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 25.93em) {
+  html {
+    font-size: 37.5%;
+  }
+}
 
 body {
   font-size: 1.5rem;
